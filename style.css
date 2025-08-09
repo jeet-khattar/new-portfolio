@@ -1,0 +1,257 @@
+:root{
+    --text-color:#e8e8ea;
+    --bg-color:#02000e;
+    --light-blue-color:#0dcaf0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container header .ul-text{
+    color:var(--text-color);
+    font-size: 48px;
+   
+}
+ .container header .ul-text:hover{
+    color:var(--light-blue-color);
+    font-size: 44px;
+}
+
+
+body{
+    background-color: var(--bg-color);
+}
+ #jeet{
+    color:#e8e8ea;
+    font-size: 25px;
+     color: var(--text-color);
+}
+#contact{
+    border: 2px solid #e8e8ea;
+    border-radius: 20px;
+   color: #e8e8ea;
+}
+#contact:hover{
+    background-color: var(--light-blue-color);
+    color: #02000e;
+}
+#frontend{
+    font-size: 80px;
+    color: var(--text-color);
+    margin: 50px 0px 50px;
+}
+#skills{
+    font-size: 22px;
+    color: var(--text-color);
+}
+hr{
+    border: 2px solid var(--text-color);
+}
+
+#work{
+    background-color: #0dcaf0;
+    border-radius: 25px;
+
+}
+
+#work:hover{
+    background-color:#0697b4;
+}
+#cv{
+    text-decoration: none;
+    color: var(--light-blue-color);
+    font-size: 21px;
+    
+}
+#navbarSupportedContent ul li a{
+  color: var(--text-color);
+  font-size: 19px;
+
+}
+#navbarSupportedContent ul li a:hover{
+    color: var(--light-blue-color);
+}
+#main-img{
+ 
+   width: 500px;
+}
+#tag-line{
+    color: var(--text-color);
+}
+.icon{
+    font-size: 50px;
+    color:var(--text-color);
+}
+.card{
+  
+    background-color: var(--bg-color);
+}
+.card-title{
+    color: var(--text-color);
+}
+.card-text{
+    color: var(--text-color);
+}
+#projects{
+    color: var(--text-color);
+}
+.row{
+    justify-content: space-evenly;
+    padding: 0px 15px 0px 15px;
+}
+.h3{
+    color: var(--text-color);
+}
+#forms input{
+    background-color:var(--bg-color);
+    margin: 10px 0px 10px;
+    color: white;
+}
+#education{
+    height: 400px;
+    width: 500px;
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+}
+
+.edu{
+    font-size: 22px;
+    color: var(--text-color);
+}
+.edu-con{
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+    margin: 50px 100px 50px;
+    padding: 20px 0px 20px;
+  
+}
+/* #diploma{
+    font-size: 26px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+#edu-two{
+    font-size: 22px;
+    color: var(--text-color);
+} */
+
+
+@media (max-width:480px){
+    #frontend{
+        font-size: 34px;
+        margin: 15px 0px 15px;
+    }
+    #skills{
+        font-size: 13px;
+    }
+    #work{
+        height: 30px;
+        width: 100px;
+        font-size: 12px;
+        margin: 15px 0px 15px;
+    }
+    #cv{
+        font-size: 17px;
+        margin: 15px 0px 15px;
+    }
+    #tag-line{
+        font-size: 29px;
+    }
+    #projects{
+        font-size: 29px;
+        margin: 15px 0px 15px;
+    }
+    .h3{
+         font-size: 29px;
+    }
+}
+@media (min-width:481px) and (max-width:759px) {
+    #frontend{
+        font-size: 49px ;
+        margin: 30px 0px 30px;
+    }
+    #skills{
+        font-size: 17px;
+    }
+     #work{
+        height: 45px;
+        width: 140px;
+        font-size: 20px;
+        margin: 20px 0px 20px;
+    }
+    #cv{
+        font-size: 22px;
+        margin: 20px 0px 20px;
+    }
+    #tag-line{
+        font-size: 31px;
+    }
+    #projects{
+        font-size: 31px;
+        margin: 20px 0px 20px;
+    }
+    .h3{
+          font-size: 31px;
+    }
+}
+@media(min-width:760px) and (max-width:1025px) {
+    #frontend{
+        font-size: 71px;
+        margin: 40px 0px 40px;
+    }
+    #skills{
+        font-size: 20px;
+    }
+     #work{
+        height: 47px;
+        width: 180px;
+        font-size: 22px;
+        margin: 25px 0px 25px;
+    }
+    #cv{
+        font-size: 24px;
+        margin: 25px 0px 25px;
+    }
+    #tag-line{
+        font-size: 34px;
+    }
+    #projects{
+        font-size: 34px;
+        margin: 25px 0px 25px;
+    }
+    .h3{
+          font-size: 34px;
+    }
+}
+@media (min-width:1026px) {
+    #frontend{
+        font-size: 80px;
+        margin: 50px 0px 50px;
+
+    }
+    #skills{
+        font-size:22px;
+    }
+     #work{
+        height: 53px;
+        width: 180px;
+        font-size: 23px;
+        margin: 30px 0px 30px;
+    }
+    #cv{
+        font-size: 25px;
+        margin: 30px 0px 30px;
+    }
+    #tag-line{
+        font-size: 40px;
+    }
+    #projects{
+        font-size: 40px;
+        margin: 30px 0px 30px;
+    }
+    .h3{
+        font-size: 40px; 
+    }
+}
